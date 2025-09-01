@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+:root { --peach:#FAD6C9; --mint:#BCEAD5; --lavender:#E6D9FF; --choco:#5C4636; }
+html,body,#root{height:100%}
+body{background:#fffaf7; color:#3a2a20}
+.card{ @apply rounded-2xl bg-white shadow-sm border; border-color: var(--peach); }
+.btn{ @apply px-4 py-2 rounded-xl font-medium transition active:scale-95 }
+.btn-primary{ background-color: var(--mint); }
+.btn-secondary{ background-color: var(--lavender); }
+.input{ @apply w-full rounded-xl border px-3 py-2 focus:outline-none focus:ring-2; border-color: var(--peach); }
